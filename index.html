@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nuestro Cumpleaños Aloha</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="video-container">
+  <header>
+    <video src="hermanas.mp4" autoplay muted loop></video>
+  </header>
+</div>
+
+<audio id="bg-music" controls loop>
+  <source src="lilo.mp3" type="audio/mpeg">
+  Tu navegador no soporta el elemento de audio.
+</audio>
+
+<div id="audio-overlay" class="audio-overlay">
+  <p>¡Toca aquí para comenzar! 🎵</p>
+</div>
+
+<img 
+  src="imagenes/Aloha.jfif" 
+  alt="Texto Aloha" 
+  class="aloha-image"
+  draggable="false" /* Evita arrastre accidental */
+>
+
+  <h1><span class="latido">¡Ven a nuestro cumpleaños!</span></h1>
+  <h2>¡Fiesta doble, diversión por dos!</h2>
+  <h4><span class="latido">🎉Adriana y Thamara🎉<br> ¡Te esperan!</span></h4>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="hidden">
+      <div class="lightbox-content">
+        <img src="" class="lightbox-img" alt="ampliada" />
+        <button class="lightbox-close">×</button>
+
+      </div>
+ 
+    </div>
+
+<div class="carousel-container">
+	<button class="carousel-btn prev">⟨</button>
+  		<div class="carousel" id="carousel">
+    			<img src="imagenes/Sis-1.jpeg" alt="Foto 1">
+    			<img src="imagenes/Sis-2.jpeg" alt="Foto 2">
+    			<img src="imagenes/Sis-3.jpeg" alt="Foto 3">
+    			<img src="imagenes/Sis-4.jpeg" alt="Foto 4">
+    			<img src="imagenes/Sis-6.jpeg" alt="Foto 6">
+    			<img src="imagenes/Sis-7.jpeg" alt="Foto 7">
+    			<img src="imagenes/Sis-8.jpeg" alt="Foto 8">
+    			<img src="imagenes/Sis-9.jpeg" alt="Foto 9">
+    			<img src="imagenes/Sis-10.jpeg" alt="Foto 10">
+    			<img src="imagenes/Sis-11.jpeg" alt="Foto 11">
+    			<img src="imagenes/Sis-12.jpeg" alt="Foto 12">
+    			<img src="imagenes/Sis-13.jpg" alt="Foto 13">
+    			<img src="imagenes/Sis-14.jpg" alt="Foto 14">
+    			<img src="imagenes/Sis-15.jpg" alt="Foto 15">
+    			<img src="imagenes/Sis-16.jpg" alt="Foto 16">
+    			<img src="imagenes/Sis-17.jpg" alt="Foto 17">
+    			<img src="imagenes/Sis-18.jpg" alt="Foto 18">
+    			<img src="imagenes/Sis-19.jpg" alt="Foto 19">
+  		</div>
+	 <button class="carousel-btn next">⟩</button>
+</div>
+
+  <!-- Cuenta regresiva -->
+<div class="countdown-box">
+  <h3>¡Falta poco para la fiesta!</h3>
+  <div class="countdown-timer">
+    <div class="countdown-item">
+      <span id="dias">00</span>
+      <p>Días</p>
+    </div>
+    <div class="countdown-item">
+      <span id="horas">00</span>
+      <p>Horas</p>
+    </div>
+    <div class="countdown-item">
+      <span id="minutos">00</span>
+      <p>Minutos</p>
+    </div>
+    <div class="countdown-item">
+      <span id="segundos">00</span>
+      <p>Segundos</p>
+    </div>
+  </div>
+</div>
+
+  <div style="text-align: center; font-size: 20px; margin-top: 10px;">
+  📅 Día: <strong>03 de julio de 2025</strong> <br>
+  🕑 Hora: <strong>3:00 PM</strong>
+</div>
+
+  <a href="https://maps.app.goo.gl/jd6bvZ6HACTCFyLe8" target="_blank" class="button-map">
+    📍 Ver mapa
+  </a>
+
+  <div class="dresscode">
+    <h3>Dress code</h3>
+    <div class="icons-grid">
+      <div class="icon-item">
+        <i class="fas fa-swimmer"></i>
+        <p>No olvides traer tu traje de baño.</p>
+      </div>
+      <div class="icon-item">
+        <i class="fas fa-sun"></i>
+        <p>Trae tu toalla, protector y repelentes.</p>
+      </div>
+      <div class="icon-item">
+        <i class="fas fa-shirt"></i>
+        <p>Trae ropa ligera.</p>
+      </div>
+      <div class="icon-item">
+        <i class="fas fa-snowflake"></i>
+        <p>Y nunca está de más traer tu cobija.</p>
+      </div>
+    </div>
+  </div>
+
+<div class="attractions">
+  <h3>Atracciones</h3>
+  <div class="icons-grid">
+    <div class="icon-item">
+      <i class="fas fa-basketball-ball"></i>  <!-- Icono corregido -->
+      <p>Cancha de basketball</p> 
+    </div>
+
+    <div class="icon-item">
+      <i class="fas fa-table-tennis"></i>  <!-- Icono más aproximado para Frontón -->
+      <p>Cancha de Frontón</p> 
+    </div>
+
+    <div class="icon-item">
+      <i class="fas fa-swimming-pool"></i>  <!-- Icono corregido -->
+      <p>Alberca</p> 
+    </div>
+
+    <div class="icon-item">
+      <i class="fas fa-fire"></i>  <!-- Icono para asador -->
+      <p>Terraza y asador</p> 
+    </div>
+  </div>
+</div>
+
+  <h2>Confirma tu asistencia</h2>
+  <a class="whatsapp-button" 
+     href="https://wa.me/523316052386?text=Confirmo%20mi%20asistencia" 
+     target="_blank">
+    <i class="fab fa-whatsapp"></i> Confirmar por WhatsApp
+  </a>
+
+<h1> <span class="latido">¡No faltes!</span></h1>
+<script src="main.js" defer></script>
+
+
+  	<footer>
+    		<p>Derechos reservados ® Nita Corporation. 2025</p>
+  	</footer>
+
+
+</body>
+</html>
